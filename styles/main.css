@@ -242,11 +242,17 @@ h2 {
 .project-card__title {
   font-family: var(--font-primary);
   margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.project-card__description {
+  line-height: 1.4;
 }
 
 .project-card__links {
   display: flex;
   gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .project-card__link {
