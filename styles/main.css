@@ -194,13 +194,14 @@ h2 {
 .skill__icon {
   background-color: var(--button-bg);
   color: var(--bg-primary);
-  padding: 0.5rem;
+  padding: 0.4rem;
   border-radius: 6px 0 0 6px;
 }
 
 .skill__label {
   padding: 0 0.8rem;
   font-weight: 600;
+  font-size: 0.9rem;
   color: var(--button-bg);
 }
 
@@ -308,6 +309,8 @@ h2 {
   border: 1px solid var(--border-color);
   border-radius: 4px;
   background-color: var(--hover-bg);
+  color: var(--text-secondary);
+  opacity: 0.8;
   resize: vertical;
 }
 
@@ -350,6 +353,6 @@ h2 {
 
 /* Selection Customization */
 ::selection {
-  background-color: var(--accent); /* Cor do fundo da seleção */
-  color: var(--bg-primary); /* Cor do texto selecionado */
+  background-color: var(--accent);
+  color: var(--bg-primary);
 }
