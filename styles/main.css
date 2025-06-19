@@ -18,6 +18,21 @@
   --font-secondary: "Source Sans Pro", sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Paleta Coffee - Tema Escuro */
+    --bg-primary: #1e1a16;
+    --bg-secondary: #2a2420;
+    --text-primary: #f3e7dd;
+    --text-secondary: #cbb5a0;
+    --accent: #edbea9;
+    --border-color: #3a2f29;
+    --button-bg: #b8a292;
+    --button-hover: #a9746e;
+    --hover-bg: #342c27;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -79,8 +94,7 @@ body {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
-  box-shadow: var(--text-primary) 0px 50px 100px -28px,
-    var(--text-secondary) 0px 30px 60px -30px;
+  box-shadow: #3e2f28 0px 50px 100px -30px, #6e5848 0px 30px 60px -30px;
 }
 
 .header__title {
