@@ -39,9 +39,9 @@ html.dark {
   --bg-secondary: #2a2420;
   --text-primary: #f3e7dd;
   --text-secondary: #cbb5a0;
-  --accent: #d49f89;
+  --accent: #edbea9;
   --border-color: #3a2f29;
-  --button-bg: #8b5e3c;
+  --button-bg: #b8a292;
   --button-hover: #a9746e;
   --hover-bg: #342c27;
 }
@@ -206,6 +206,7 @@ section + section {
 .contact__icon {
   font-size: 1.4rem;
   background-color: var(--bg-secondary);
+  color: var(--text-secondary);
   padding: 0.3rem;
   border-radius: 6px;
 }
