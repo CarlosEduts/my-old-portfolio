@@ -96,6 +96,11 @@ body {
   text-decoration: none;
   color: var(--accent);
   font-weight: 600;
+  transition: all 200ms;
+}
+
+.navbar__item a:hover {
+  color: var(--button-bg);
 }
 
 .navbar__button-theme {
@@ -111,6 +116,12 @@ body {
   color: var(--text-primary);
   padding: 0.3rem;
   border-radius: 50%;
+  transition: all 200ms;
+}
+
+.navbar__button-theme:hover {
+  background-color: var(--button-bg);
+  color: var(--bg-primary);
 }
 
 /* Header */
@@ -306,6 +317,10 @@ h2 {
   font-weight: 600;
 }
 
+.project-card__link:hover {
+  color: var(--button-bg);
+}
+
 /* Contact */
 .contact__content {
   display: flex;
@@ -329,8 +344,13 @@ h2 {
   align-items: center;
   justify-content: center;
   font-size: 1.4rem;
-  color: var(--text-secondary);
+  color: var(--button-bg);
   text-decoration: none;
+}
+
+.contact__social-link:hover {
+  background-color: var(--button-bg);
+  color: var(--bg-primary);
 }
 
 .contact__cv-link {
@@ -343,11 +363,16 @@ h2 {
   border-radius: 6px;
   padding-right: 0.8rem;
   background-color: var(--bg-secondary);
-  color: var(--text-secondary);
+  color: var(--button-bg);
+}
+
+.contact__cv-link:hover {
+  background-color: var(--button-bg);
+  color: var(--bg-secondary);
 }
 
 .contact__cv-icon {
-  background-color: var(--text-secondary);
+  background-color: var(--button-bg);
   color: var(--bg-primary);
   font-size: 1.4rem;
   padding: 0.6rem;
@@ -397,6 +422,10 @@ h2 {
 .button--primary {
   background-color: var(--button-bg);
   color: var(--bg-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--text-secondary);
 }
 
 .footer {
