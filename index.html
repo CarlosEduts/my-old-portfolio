@@ -1,0 +1,181 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Eduardo</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <p class="navbar__brand">cedut<strong>dev</strong></p>
+
+        <ul class="navbar__links">
+          <li class="navbar__item"><a href="#about">Sobre Mim</a></li>
+          <li class="navbar__item"><a href="#projects">Projetos</a></li>
+          <li class="navbar__item"><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header -->
+      <header class="header">
+        <div class="header__profile">
+          <img
+            src="assets/images/profile.jpg"
+            alt="Foto de perfil de Carlos Eduardo"
+          />
+        </div>
+
+        <div class="header__content">
+          <small class="header__subtitle"
+            >Desenvolvedor. Estudante. Criador</small
+          >
+          <h1 class="header__title">Sou Carlos Eduardo.</h1>
+          <p class="header__description">
+            Aprender, testar e criar — esse tem sido meu caminho no
+            desenvolvimento.
+          </p>
+        </div>
+      </header>
+
+      <!-- Sobre Mim -->
+      <section id="about" class="about">
+        <div class="about__header">
+          <i class="ti ti-coffee about__icon"></i>
+          <h2 class="about__title">Sobre mim</h2>
+        </div>
+
+        <p class="about__text">
+          Sou alguém que gosta de entender o que faz as coisas funcionarem —
+          desde interfaces simples até sistemas mais complexos. Comecei na
+          programação por curiosidade e acabei encontrando um lugar onde lógica,
+          criatividade e design se encontram.
+        </p>
+      </section>
+
+      <!-- Habilidades -->
+      <section class="skills">
+        <div class="skills__header">
+          <i class="ti ti-code skills__icon"></i>
+          <h2 class="skills__title">Minhas habilidades</h2>
+        </div>
+
+        <div class="skills__list">
+          <div class="skill">
+            <i class="ti ti-brand-javascript skill__icon"></i>
+            <span class="skill__label">JavaScript</span>
+          </div>
+          <div class="skill">
+            <i class="ti ti-brand-typescript skill__icon"></i>
+            <span class="skill__label">TypeScript</span>
+          </div>
+          <div class="skill">
+            <i class="ti ti-brand-react skill__icon"></i>
+            <span class="skill__label">React.js</span>
+          </div>
+          <div class="skill">
+            <i class="ti ti-brand-nextjs skill__icon"></i>
+            <span class="skill__label">Next.js</span>
+          </div>
+          <div class="skill">
+            <i class="ti ti-device-desktop skill__icon"></i>
+            <span class="skill__label">Design responsivo</span>
+          </div>
+          <div class="skill">
+            <i class="ti ti-layout-grid skill__icon"></i>
+            <span class="skill__label">Design intuitivo</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projetos -->
+      <section id="projects" class="projects">
+        <div class="projects__header">
+          <i class="ti ti-layout-board projects__icon"></i>
+          <h2 class="projects__title">Meus Projetos</h2>
+        </div>
+
+        <div class="projects__cards">
+          <!-- Projeto Card (exemplo) -->
+          <article class="project-card">
+            <img class="project-card__image" src="" alt="" />
+            <div class="project-card__body">
+              <h3 class="project-card__title">Dev Kiit</h3>
+              <p class="project-card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+                dolorem fuga, quos dignissimos molestiae iste.
+              </p>
+              <div class="project-card__links">
+                <a href="#" class="project-card__link">Deploy</a>
+                <a href="#" class="project-card__link">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section id="contact" class="contact">
+        <div class="contact__header">
+          <i class="ti ti-at contact__icon"></i>
+          <h2 class="contact__title">Contato</h2>
+        </div>
+
+        <div class="contact__content">
+          <div class="contact__socials">
+            <a href="#" class="contact__social-link"
+              ><i class="ti ti-brand-instagram"></i
+            ></a>
+            <a href="#" class="contact__social-link"
+              ><i class="ti ti-brand-github"></i
+            ></a>
+            <a href="#" class="contact__social-link"
+              ><i class="ti ti-brand-linkedin"></i
+            ></a>
+          </div>
+
+          <form class="contact__form" action="#" method="post">
+            <p class="contact__note">
+              Quer bater um papo? A caixa de entrada tá aberta.
+            </p>
+
+            <div class="form-group">
+              <label for="email" class="form-group__label">Seu E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-group__input"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-group__label"
+                >Sua Mensagem:</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                class="form-group__textarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="button button--primary">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p class="footer__text">&copy; 2025 - Feito por Carlos Eduardo</p>
+      </footer>
+    </div>
+  </body>
+</html>
