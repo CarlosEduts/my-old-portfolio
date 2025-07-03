@@ -354,7 +354,6 @@ h2 {
   color: var(--bg-primary);
 }
 
-.contact__email-link,
 .contact__cv-link {
   text-decoration: none;
   font-size: 0.9rem;
@@ -368,13 +367,11 @@ h2 {
   color: var(--button-bg);
 }
 
-.contact__email-link:hover,
 .contact__cv-link:hover {
   background-color: var(--button-bg);
   color: var(--bg-secondary);
 }
 
-.contact__email-icon,
 .contact__cv-icon {
   background-color: var(--button-bg);
   color: var(--bg-primary);
