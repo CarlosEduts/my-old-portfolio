@@ -5,10 +5,10 @@
 html.light {
   /* Paleta Coffee - Tema Claro */
   --bg-primary: #faf6f2;
-  --bg-secondary: #f2ece6;
+  --bg-secondary: #f2ece69a;
   --text-primary: #3e2f28;
   --text-secondary: #6e5848;
-  --accent: #a9746e;
+  --accent: #7c5753;
   --border-color: #d6c7bd;
   --button-bg: #8b5e3c;
   --button-hover: #a9746e;
