@@ -24,6 +24,20 @@
         --font-primary: "DM Serif Display", serif;
         --font-secondary: "Source Sans Pro", sans-serif;
       }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          /* Paleta Azul Suave – Tema Escuro */
+          --bg-primary: #202b36;
+          --bg-secondary: #2b3a4670;
+          --text-primary: #dce4eb;
+          --text-secondary: #9aaabc;
+          --accent: #6b9ecf;
+          --border-color: #33414e;
+          --button-bg: #6b9ecf;
+          --button-hover: #5a8cb8;
+          --hover-bg: #293742;
+        }
+      }
 
       * {
         margin: 0;
@@ -111,8 +125,8 @@
 
         <p>
           Hmm, essa rota parece não existir. <br />
-          Redirecionando para <a href="/">a página inicial</a> em
-          <span id="countdown">10</span> segundos.
+          Redirecionando para a <a href="/">página inicial</a> em
+          <span id="countdown">9</span> segundos.
         </p>
       </main>
     </div>
@@ -122,7 +136,7 @@
     <script>
       const clickArea = document.querySelector(".click-area");
       const countdownElement = document.getElementById("countdown");
-      let secondsRemaining = 10;
+      let secondsRemaining = 9;
 
       const intervalId = setInterval(() => {
         countdownElement.textContent = secondsRemaining;
