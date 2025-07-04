@@ -2,16 +2,16 @@
 
 :root,
 html.light {
-  /* Paleta Coffee - Tema Claro */
-  --bg-primary: #faf6f2;
-  --bg-secondary: #f2ece69a;
-  --text-primary: #3e2f28;
-  --text-secondary: #6e5848;
-  --accent: #7c5753;
-  --border-color: #d6c7bd;
-  --button-bg: #8b5e3c;
-  --button-hover: #a9746e;
-  --hover-bg: #e9dad0;
+  /* Paleta Azul Suave – Tema Claro */
+  --bg-primary: #f4f7fa;
+  --bg-secondary: #e5ebf081;
+  --text-primary: #2d3e50;
+  --text-secondary: #5a6e80;
+  --accent: #5a8daa;
+  --border-color: #c3c9d1;
+  --button-bg: #5a8daa;
+  --button-hover: #4a7590;
+  --hover-bg: #e1e8ef;
 
   /* Tipografia */
   --font-primary: "DM Serif Display", serif;
@@ -20,29 +20,28 @@ html.light {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Paleta Coffee - Tema Escuro */
-    --bg-primary: #1e1a16;
-    --bg-secondary: #2a2420;
-    --text-primary: #f3e7dd;
-    --text-secondary: #cbb5a0;
-    --accent: #edbea9;
-    --border-color: #3a2f29;
-    --button-bg: #b8a292;
-    --button-hover: #a9746e;
-    --hover-bg: #342c27;
+    /* Paleta Azul Suave – Tema Escuro */
+    --bg-primary: #202b36;
+    --bg-secondary: #2b3a4670;
+    --text-primary: #dce4eb;
+    --text-secondary: #9aaabc;
+    --accent: #6b9ecf;
+    --border-color: #33414e;
+    --button-bg: #6b9ecf;
+    --button-hover: #5a8cb8;
+    --hover-bg: #293742;
   }
 }
 html.dark {
-  /* Paleta Coffee - Tema Escuro */
-  --bg-primary: #1e1a16;
-  --bg-secondary: #2a2420;
-  --text-primary: #f3e7dd;
-  --text-secondary: #cbb5a0;
-  --accent: #edbea9;
-  --border-color: #3a2f29;
-  --button-bg: #b8a292;
-  --button-hover: #a9746e;
-  --hover-bg: #342c27;
+  --bg-primary: #202b36;
+  --bg-secondary: #2b3a4670;
+  --text-primary: #dce4eb;
+  --text-secondary: #9aaabc;
+  --accent: #6b9ecf;
+  --border-color: #33414e;
+  --button-bg: #6b9ecf;
+  --button-hover: #5a8cb8;
+  --hover-bg: #293742;
 }
 
 * {
@@ -54,6 +53,7 @@ html.dark {
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
@@ -99,7 +99,7 @@ body {
 }
 
 .navbar__item a:hover {
-  color: var(--button-bg);
+  color: var(--button-hover);
 }
 
 .navbar__button-theme {
@@ -134,7 +134,7 @@ body {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
-  box-shadow: #3e2f28 0px 50px 100px -30px, #6e5848 0px 30px 60px -30px;
+  box-shadow: #202b36 0px 50px 100px -30px, #33414e 0px 30px 60px -30px;
 }
 
 .header__title {
@@ -317,7 +317,7 @@ h2 {
 }
 
 .project-card__link:hover {
-  color: var(--button-bg);
+  color: var(--button-hover);
 }
 
 /* Contact */
@@ -424,7 +424,7 @@ h2 {
 }
 
 .button--primary:hover {
-  background-color: var(--text-secondary);
+  background-color: var(--button-hover);
 }
 
 .footer {
@@ -449,7 +449,7 @@ h2 {
   border: 2px solid var(--bg-secondary);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--accent);
+  background-color: var(--button-hover);
 }
 
 /* Selection Customization */
