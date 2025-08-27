@@ -389,7 +389,18 @@ h2 {
   gap: 1rem;
 }
 
-.form-group {
+.form-group__inputs {
+  display: flex;
+  gap: 2rem;
+}
+
+.form-group__inputs > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group__message {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
